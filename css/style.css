@@ -65,9 +65,67 @@ nav{
     align-items: center;
     width: 10%;
 }
-.btn{
+
+.header-btn{
     background-color: #0061ff;
     color: white;
     padding: 5px 20px;
     text-decoration: none;
+}
+
+/* JUMBOTRON */
+
+.jumbotron-background{
+    background-color: #b4d0e7;
+}
+
+.jumbotron-container{
+    width: 85%;
+    height: 850px;
+    margin: 0 auto;
+}
+
+.jumbotron-title{
+    padding-top: 90px;
+    font-size: 90px;
+}
+
+.jumbotron-text{
+    width: 30%;
+    padding-top: 45px;
+}
+
+.jumbotron-subtitle{
+    font-weight: bold;
+}
+
+.jumbotron-button{
+    margin-top: 40px;
+}
+
+.jumbotron-btn{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.button-subtitle{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.jumbotron-arrow{
+    padding-top: 60px;
+}
+
+.jumbotron-image{
+    width: 70%;
+    padding-top: 45px;
+    padding-left: 60px;
+}
+
+.jumbotron-img{
+    width: 90%;
 }

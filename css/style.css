@@ -35,17 +35,10 @@ li a{
 /* HEADER */
 
 .header-container{
-    width: 98%;
+    width: 99%;
     margin: 0 auto;
 }
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-}
-
+/* LOGO */
 .logo{
     width: 10%;
     padding: 25px 0;
@@ -57,6 +50,15 @@ nav{
     margin-right: 10px;
 }
 
+/* NAV */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+/* HEADER BUTTON */
 .start-button{
     display: flex;
     justify-content: center;
@@ -68,9 +70,4 @@ nav{
     color: white;
     padding: 5px 20px;
     text-decoration: none;
-}
-/* HEADER TEST */
-
-.second-col{
-    background-color: pink;
 }

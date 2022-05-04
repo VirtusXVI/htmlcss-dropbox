@@ -276,6 +276,12 @@ nav{
     margin-top: 40px;
     border: 1px solid grey;
 }
+
+.sales-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
 .sales-header{
     line-height: 50px;
     text-align: center;
@@ -283,17 +289,12 @@ nav{
     border-bottom: 1px solid grey;
 }
 
-.sales-container{
-    width: 70%;
-    margin: 0 auto;
-}
-
 .sales-adjustment{
     display: flex;
     justify-content: space-around;
 
 }
-
+/* SALES TITLE */
 .sales-title{
     margin-top: 30px;
     font-size: 20px;
@@ -309,6 +310,8 @@ nav{
     margin-right: 0px;
 }
 
+/* SALES BUTTON */
+
 .sales-button{
     width: 25%;
     margin-top: 40px;
@@ -319,5 +322,44 @@ nav{
     background-color: #0061ff;
     color: white;
     padding: 5px 50px;
+    text-decoration: none;
+}
+
+/* FIND PARTNER */
+
+.partner-container{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.partner-image{
+    width: 50%;
+}
+
+.partner-text{
+    width: 45%;
+
+}
+
+.partner-title{
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.partner-subtitle{
+    padding-top: 20px;
+}
+
+/* PARTNER BUTTON */
+.partner-button{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.partner-btn{
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
     text-decoration: none;
 }

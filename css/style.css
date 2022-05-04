@@ -308,6 +308,7 @@ nav{
     padding-top: 10px;
     margin-left: 0px;
     margin-right: 0px;
+    padding-bottom: 40px;
 }
 
 /* SALES BUTTON */
@@ -362,4 +363,25 @@ nav{
     padding: 5px 20px;
     border: 1px solid black;
     text-decoration: none;
+}
+
+/* BUSINESS SECTION */
+
+.business-adjustments{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.business-col{
+    width: 30%;
+    margin-top: 40px;
+}
+
+.business-title{
+    font-size: 30px;
+}
+
+.business-text{
+    padding-top: 20px;
 }

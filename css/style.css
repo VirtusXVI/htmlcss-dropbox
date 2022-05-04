@@ -268,3 +268,56 @@ nav{
 .check{
     color: #0061ff;
 }
+
+/* SALES OFFICE */
+
+.sales-col{
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid grey;
+}
+.sales-header{
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid grey;
+}
+
+.sales-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sales-adjustment{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sales-title{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.sales-points{
+    padding-top: 30px;
+}
+
+.sales-text{
+    padding-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.sales-button{
+    width: 25%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sales-btn{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 50px;
+    text-decoration: none;
+}

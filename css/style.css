@@ -81,11 +81,11 @@ nav{
 
 .jumbotron-background{
     background-color: #b4d0e7;
+    height: 850px;
 }
 
 .jumbotron-container{
     width: 85%;
-    height: 850px;
     margin: 0 auto;
 }
 
@@ -172,3 +172,99 @@ nav{
 
 /* SUBSCRIPTION PLANS */
 
+.col-adjustment{
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+}
+
+.col{
+    width: calc(90% / 3);
+    margin-top: 40px;
+    border: 1px solid grey;
+}
+
+.sub-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* SUBSCRIPTION PLANS HEADER */
+
+.sub-header{
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid grey;
+}
+
+/* SUBSCRIPTION PLANS MAIN */
+
+.sub-title{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.sub-price{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.sub-length{
+    color: grey;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* SUB ADVANTAGES */
+
+.sub-advantages li{
+    padding-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* SUB BUTTON */
+
+.sub-button{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sub-btn{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 75px;
+    text-decoration: none;
+}
+
+/* SUB BUY */
+
+.sub-buy{
+    padding-top: 30px;
+}
+
+/* DIVIDER */
+
+.sub-divider{
+    width: 55px;
+    margin-top: 30px;
+}
+
+/* SUB POINTS */
+
+.sub-points{
+    padding-top: 30px;
+}
+
+/* SUB LIST */
+
+.sub-list li{
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.check{
+    color: #0061ff;
+}

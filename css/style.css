@@ -392,3 +392,71 @@ nav{
 .business-text{
     padding-top: 20px;
 }
+
+.customers{
+    margin-top: 40px;
+}
+
+/* COLLAB SECTION */
+
+.collab-spacings{
+    padding-top: 40px;
+}
+
+.collab-background{
+    background-color: #b4d0e7;
+}
+
+.collab-flex-container{
+    display: flex;
+
+}
+
+.text-col{
+    width: calc(100% / 3);
+    height: 500px;
+}
+
+.collab-col{
+    width: calc(100% / 3);
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collab-box{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collab-box img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.col-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.text-col img{
+    width: 25%;
+}
+
+.col-logo{
+    padding-top: 60px;
+}
+
+.col-container hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50px;
+}
+
+.cit{
+    padding-top: 30px;
+}

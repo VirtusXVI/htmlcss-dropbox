@@ -36,9 +36,16 @@ li a{
 /* HEADER */
 
 .header-container{
-    width: 99%;
+    width: 100%;
     margin: 0 auto;
 }
+
+.fixed-nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
 /* LOGO */
 
 .logo{

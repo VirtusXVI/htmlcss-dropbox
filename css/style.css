@@ -150,6 +150,7 @@ nav{
     width: 70%;
     margin: 0 auto;
 }
+
 .main-subtitle{
     font-size: 45px;
     padding-top: 180px;
@@ -407,6 +408,8 @@ nav{
     background-color: #b4d0e7;
 }
 
+/* COLLAB COLS AND BOXES */
+
 .collab-flex-container{
     display: flex;
 
@@ -439,6 +442,8 @@ nav{
     filter: invert(1);
 }
 
+/* CENTRAL BOX */
+
 .col-container{
     width: 85%;
     margin: 0 auto;
@@ -461,6 +466,8 @@ nav{
 .cit{
     padding-top: 30px;
 }
+
+/* COLORS */
 
 .red{
     background-color: red;
@@ -489,3 +496,48 @@ nav{
 .light-blue{
     background-color: lightblue;
 }
+
+/* TRIAL SECTION */
+
+.trial-background{
+    background-color: #b4d0e7;
+}
+
+.trial-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.trial-adjustment{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+
+.trial-title{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.trial-subtitle{
+    font-size: 45px;
+    padding-top: 60px;
+    color: #61082b;
+}
+
+
+/* TRIAL BUTTON */
+
+.trial-button{
+    width: 25%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.trial-btn{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 50px;
+    text-decoration: none;
+}
+

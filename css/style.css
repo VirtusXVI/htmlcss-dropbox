@@ -535,8 +535,8 @@ nav{
 }
 
 .trial-btn{
-    background-color: #0061ff;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 5px 50px;
     text-decoration: none;
 }
@@ -604,10 +604,11 @@ footer{
 
 .language-container hr{
     width: 10%;
+    margin-top: 80px;
 }
 .language-spacings{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .grey{

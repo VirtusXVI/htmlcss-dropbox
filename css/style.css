@@ -415,6 +415,7 @@ nav{
 .text-col{
     width: calc(100% / 3);
     height: 500px;
+    background-color: #f5f5f5;
 }
 
 .collab-col{
@@ -459,4 +460,32 @@ nav{
 
 .cit{
     padding-top: 30px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.light-blue{
+    background-color: lightblue;
 }

@@ -541,3 +541,15 @@ nav{
     text-decoration: none;
 }
 
+/* Q&A SECTION */
+
+.qea-spacings{
+    padding: 30px 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qea-title-spacings{
+    margin-bottom: 40px;
+}

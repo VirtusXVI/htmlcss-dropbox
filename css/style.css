@@ -22,12 +22,12 @@ ul{
     list-style-type: none;
 }
 
-li{
+nav ul li{
     margin-left: 20px;
     margin-right: 20px;
 }
 
-li a{
+nav ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -552,4 +552,64 @@ nav{
 
 .qea-title-spacings{
     margin-bottom: 40px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 160px;
+    padding-top: 80px;
+}
+
+.footer-container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col{
+    width: 15%;
+}
+
+.footer-subtitle{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.menu-spacings{
+    padding-bottom: 10px;
+}
+
+.menu-spacings li a{
+    color: white;
+
+    text-decoration: none;
+}
+
+.menu-spacings li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* LANGUAGE */
+
+.language-container{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.language-container hr{
+    width: 10%;
+}
+.language-spacings{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grey{
+    color: grey;
 }
